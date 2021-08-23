@@ -11,5 +11,30 @@
 
     <artifactId>cunxu-rpc-client</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.cunxu</groupId>
+            <artifactId>cunxu-rpc-proto</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cunxu</groupId>
+            <artifactId>cunxu-rpc-codec</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cunxu</groupId>
+            <artifactId>cunxu-rpc-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cunxu</groupId>
+            <artifactId>cunxu-rpc-transport</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+    </dependencies>
 </project>

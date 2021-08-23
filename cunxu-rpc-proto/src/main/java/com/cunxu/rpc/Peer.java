@@ -10,5 +10,5 @@ import lombok.Data;
 @AllArgsConstructor
 public class Peer {
     private String host;
-    private String port;
+    private int port;
 }
