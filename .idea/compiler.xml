@@ -9,10 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cunxu-rpc-proto" />
         <module name="cunxu-rpc-codec" />
+        <module name="cunxu-rpc-transport" />
         <module name="cunxu-rpc-server" />
         <module name="cunxu-rpc-client" />
+        <module name="cunxu-rpc-example" />
         <module name="cunxu-rpc-common" />
-        <module name="cunxu-rpc-transport" />
       </profile>
     </annotationProcessing>
   </component>

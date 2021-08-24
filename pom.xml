@@ -8,6 +8,7 @@
     <artifactId>cunxu-rpc</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>cunxu-rpc-common</module>
         <module>cunxu-rpc-proto</module>
@@ -15,9 +16,11 @@
         <module>cunxu-rpc-transport</module>
         <module>cunxu-rpc-server</module>
         <module>cunxu-rpc-client</module>
+        <module>cunxu-rpc-example</module>
     </modules>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <commons.version>2.5</commons.version>
         <jetty.version>9.4.19.v20190610</jetty.version>

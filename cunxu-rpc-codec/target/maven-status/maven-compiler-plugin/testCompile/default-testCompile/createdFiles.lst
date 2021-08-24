@@ -1,0 +1,3 @@
+com\cunxu\rpc\codec\TestBean.class
+com\cunxu\rpc\codec\JSONDecoderTest.class
+com\cunxu\rpc\codec\JSONEncoderTest.class
